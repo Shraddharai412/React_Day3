@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React_Day3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Day 3 of my Full Stack MERN training focused on strengthening core React fundamentals and building small practical projects to reinforce learning.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Topics Covered
 
-### `npm start`
+- **Creating a Quiz System**  
+  Managed user selections and scoring dynamically using React state and event handlers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **State Management using Hooks**  
+  Practiced `useState`, `useEffect`, and `useRef` to enable dynamic UI updates and interactivity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Working with APIs in React**  
+  Used `fetch()` inside `useEffect` to retrieve data from public APIs and render dynamic content.
 
-### `npm test`
+- **React Routing with Parameters**  
+  Implemented multi-page navigation using React Router (`BrowserRouter`, `Routes`, `Route`), and extracted dynamic parameters with `useParams()`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Component Reusability & Conditional Rendering**  
+  Built modular components for counters, inputs, and validations with conditional display.
 
-### `npm run build`
+- **Basic Carousel Implementation**  
+  Created an image slider with navigation buttons and index tracking.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Projects Included
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Quiz App  
+An interactive quiz system with multiple-choice questions and real-time scoring.  
+- Focus on event handling, state updates, and conditional rendering.
 
-### `npm run eject`
+### 2. Birthday Counter  
+A simple app that calculates and displays the number of days left until upcoming birthdays.  
+- Demonstrates date calculations and dynamic UI updates with hooks.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Image Slider  
+An image carousel that allows users to navigate through a set of images using next and previous buttons.  
+- Highlights use of state for tracking current slide and rendering dynamic content.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. User Details Viewer  
+Fetches user data from a public API and displays it in a table. Clicking a user opens a detailed view with additional information.  
+- Utilizes React Router for navigation and API integration with fetch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- React.js (functional components & hooks)  
+- React Router for routing and navigation  
+- JavaScript (ES6+)  
+- CSS for styling  
+- Public APIs for fetching user data
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
 
-### Code Splitting
+![Screenshot 2025-06-08 011104](https://github.com/user-attachments/assets/329e4787-2561-4ce9-8cb8-d49b275f7a25)
+![Screenshot 2025-06-08 011116](https://github.com/user-attachments/assets/e93fb6d1-9ed3-4594-8b46-9eb41a6234bc)
+ ![Screenshot 2025-06-08 011327](https://github.com/user-attachments/assets/a205ed96-ae03-4d9e-bf2c-46d89eaf930f)
+![Screenshot 2025-06-08 011342](https://github.com/user-attachments/assets/be7abe57-d8da-477a-af9c-b57954312dbc)
+![Screenshot 2025-06-08 011627](https://github.com/user-attachments/assets/43046edb-3814-4c0c-84fc-12650d836c7e)
+![Screenshot 2025-06-08 011644](https://github.com/user-attachments/assets/833cc042-0b7d-4daf-9d2e-22ce9baa968d)
+![Screenshot 2025-06-08 011850](https://github.com/user-attachments/assets/68390c01-e1d1-43a7-891e-2ed9514ecff7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites  
+- Node.js and npm installed on your machine.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
